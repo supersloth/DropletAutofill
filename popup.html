@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="lib/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="lib/underscore-min.js"></script>
+        <script type="text/javascript" src="lib/backbone-min.js"></script>
+        <script type="text/javascript" src="popup.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <style>
+            body{
+                min-height:300px;
+                min-width:300px;
+            }
+        </style>
+    </head>
+    <body>
+        <table class="table table-striped" id="set"></table>
+        <script type="text/template" id="displaySet">
+            <tr>
+                <td class="span4 setName"><%= setName %></td>
+                <td class="span1"><button class="fill btn btn-primary">Fill</button></td>
+            </tr>
+        </script>
+    </body>
+    
+</html>

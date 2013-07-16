@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Droplet AutoFill",
+  "description": "This extension autofills the entered fields for testing purpose. Developed by : Prateek Jadhwani (http://www.prateekjadhwani.com)",
+  "version": "0.1",
+  "icons": {
+      "16": "droplet16.png",
+      "48": "droplet48.png",
+      "128": "droplet.png"
+  },
+
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_name": "Droplet AutoFill"
+  },
+  "background": {
+    "scripts": ["background.js"]
+      
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["lib//jquery-1.10.2.min.js", "contentScript.js"]
+    }
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "permissions": [
+      "background",
+      "tabs"
+  ]
+}

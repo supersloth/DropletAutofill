@@ -1,0 +1,24 @@
+{
+  "Contact Details Page": {
+    "namePrefix": "Mr",
+    "firstName": "Test",
+    "middleName": "Test",
+    "lastName": "Test",
+    "birthMonth": "1",
+    "birthDay": "12",
+    "birthYear": "1989",
+    "personalCheckbox": true,
+    "personalAddress1": "Test Address 1",
+    "personalCity": "Test City",
+    "personalCountryState": "USFL",
+    "personalZipCode": "07604",
+    "personalPhone": "1234567890",
+    "email": "abc@abc.com",
+    "emailVerify": "abc@abc.com",
+    "driversLicense": "1234",
+    "driversLicenseCountryState" : "USKS",
+    "driversLicenseExpirationMonth": "1",
+    "driversLicenseExpirationDay": "22",
+    "driversLicenseExpirationYear": "2015"
+  }
+}
